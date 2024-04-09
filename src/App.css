@@ -1,0 +1,42 @@
+/* .App {
+  width: 120%;
+  height: 400vh;
+
+  
+} */
+table {
+  width: 90%;
+  /* background-color: rgb(180, 187, 189); */
+  
+}
+
+table,th,td {
+  border: 1px solid rgba(0, 8, 0, 0.943);
+  width :max-content;
+  font-family: Arial, Helvetica, sans-serif;
+}
+td  {
+  
+  align-items:center;
+  background-color: darkgrey;
+  width:25%; 
+  
+}
+
+th{
+  text-align: center;
+  background-color: beige;
+  width:45%;
+  
+}
+.button {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 12px;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 1;
+    color: #fff;  }
+
+    
+    
