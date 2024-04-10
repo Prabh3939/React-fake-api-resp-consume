@@ -47,7 +47,9 @@ function App() {
 
     const handleNext = ()=> {
       console.log(page);
-     // if (page < Math.ceil(data.length/rowsPerPage)-1 ){
+     if (page < Math.ceil(data.length/rowsPerPage)-1 ){
+
+      
         handleChangePage(page+1);
       
     };
